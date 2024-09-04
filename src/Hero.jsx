@@ -5,12 +5,10 @@ function Hero() {
     <section className="hero">
       <div className="hero-center">
         <div className="hero-title">
-          <h1>Contentful CMS</h1>
+          <h1>Projects Stash</h1>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem qui
-            aliquid debitis dolore doloribus ratione ipsam deleniti fuga at
-            sequi ex possimus, necessitatibus, inventore vitae delectus
-            praesentium porro veritatis eligendi!
+            My personal collection of projects. All the applications are built
+            using different technologies and tools. Feel free to explore them.
           </p>
         </div>
         <div className="img-container">

@@ -282,8 +282,28 @@ PROJECT CSS
 */
 
 body {
-  background: var(--grey-200);
+  /* background: var(--grey-200); */
+  background-image: linear-gradient(
+    60deg,
+    hsl(342, 46%, 75%),
+    hsl(203, 41%, 74%)
+  );
+  background-size: 600% 600%;
+  animation: bgAnimatedGradient 25s infinite linear;
 }
+
+@keyframes bgAnimatedGradient {
+  0% {
+    background-position: 0 85%;
+  }
+  50% {
+    background-position: 100% 20%;
+  }
+  100% {
+    background-position: 0 85%;
+  }
+}
+
 .hero {
   min-height: 40vh;
   background: var(--white);
